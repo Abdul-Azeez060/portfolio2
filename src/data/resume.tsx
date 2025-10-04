@@ -2,6 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://portfolio2.vercel.app",
   name: "Abdul Azeez",
   initials: "AA",
   description:
