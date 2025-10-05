@@ -7,7 +7,7 @@ export const DATA = {
   initials: "AA",
   description:
     "Passionate about building web applications and exploring new technologies. Curious about blockchain  ",
-  summary: `Your professional summary here. Describe your background, experience, and current focus.`, // Update with Abdul Azeez's summary
+  summary: `Worked on  backend development, microservices, cloud computing, optimizing frontend performance for applications scaling 5k users and 100k+ views.`, // Update with Abdul Azeez's summary
   avatarUrl: "/Me.webp", // Abdul Azeez's profile image
   skills: [
     // Frontend Technologies
@@ -199,7 +199,7 @@ export const DATA = {
       links: [
         {
           type: "Demo",
-          href: "#",
+          href: "https://www.notion.so/Graphify-Upcoming-product-20e42df80dae80098ad5d892fa6ce306?source=copy_link",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -253,12 +253,17 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Website",
+          href: "https://finn-ai-v2.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Source",
           href: "https://github.com/Abdul-Azeez060/SevenSeas-Google_Solution-",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/abdul-azeez.jpg",
+      image: "/finAI.png",
       video: "",
     },
   ],
