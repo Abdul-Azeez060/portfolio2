@@ -32,12 +32,6 @@ export default function Page() {
                 text={DATA.description}
               />
             </div>
-            <BlurFade delay={BLUR_FADE_DELAY * 2.5}>
-              <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                <AvatarFallback>{DATA.initials}</AvatarFallback>
-              </Avatar>
-            </BlurFade>
           </div>
         </div>
       </section>
